@@ -10,7 +10,6 @@ function Header (props) {
         </div>
     )
 }
-
 Header.propTypes = {
     title: PropTypes.string,
     name: PropTypes.string,

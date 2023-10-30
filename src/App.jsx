@@ -2,6 +2,7 @@ import { Carousel } from "./components/Carousel"
 import { Nabvar } from "./components/Nabvar"
 import { Footer } from "./components/Footer"
 import Header from "./components/Header"
+import { Formulario } from "./components/Formulario"
 
 function App() {
 
@@ -12,6 +13,7 @@ function App() {
       <Header title="pruebas de props"/>
       <Header title="Bosque en la noche" name="Noche en el bosque" category="imagenes de noche"/>
       <Header title="Ciudad en la noche" name="Noche en la ciudad" category="imagenes de noche"/>
+      <Formulario />
       <Footer />
     </>
   )
