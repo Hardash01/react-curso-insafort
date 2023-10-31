@@ -32,7 +32,7 @@ export function Formulario () {
         <>
             <h3 className="text-2xl text-center font-bold">Fomulario de Eventos</h3>
 
-            <div className="bg-gray-300 py-5 my-10 mx-auto md:w-3/6 rounded-xl shadow-xl border border-gray-400 shadow-gray-400">
+            <div className="bg-gray-300 py-5 my-10 mx-auto max-w-screen-xl md:w-3/6 rounded-xl shadow-xl border border-gray-400 shadow-gray-400">
                 <form onSubmit={handleSubmit} onReset={handleReset} className="p-5 flex flex-col gap-5">
                     <div className="flex items-center gap-5">
                         <label htmlFor="">Evento onClick</label>
