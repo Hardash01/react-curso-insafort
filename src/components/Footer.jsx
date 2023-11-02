@@ -19,7 +19,7 @@ const enlaces = [
 export function Footer () {
     return (
         <footer className="bg-sky-950">
-            <section className="max-w-screen-xl mx-auto md:w-4/6 flex items-start md:justify-between py-10">
+            <section className="max-w-screen-xl mx-auto md:w-4/6 px-3 md:px-0 flex flex-col md:text-left text-center md:flex-row items-center md:items-start md:justify-between py-10 space-y-5 md:space-y-0">
                 <div className="flex flex-col w-1/3">
                     <a href="/" className="text-white font-black text-xl">
                         LogoWeb

@@ -36,7 +36,7 @@ export function Carousel () {
             <div id="default-carousel" className="relative max-w-screen-xl mx-auto md:w-4/6" data-carousel="slide">
                 <h1 className="mt-5 text-center font-bold text-3xl">Esto es un Carousel con imagenes de noche</h1>
                 {/* Carousel wrapper */}
-                <div className="relative overflow-hidden  md:h-screen">
+                <div className="relative overflow-hidden h-screen">
                 {Array.from({ length: totalSlides }).map((_, index) => (
                     <div
                     key={index}
